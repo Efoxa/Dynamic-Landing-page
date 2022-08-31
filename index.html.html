@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfolo.css" />
+    <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 <body>
     <header class="navigation bar">
         <nav>
-            <img src="Images/logo.png" class="logo" alt="logo"/>
+            <img src="assets/icons/Logo.png" class="logo" alt="logo"/>
                 <ul>
                     <li><a href="default.asp">Portfolio</a></li>
                     <li><a href="tutorials.asp">Tutorials</a></li>
@@ -22,42 +22,77 @@
         </nav>
     </header>
 
-    <h1 class="hero">Welcome to the world of <span>Building Software<br> Products</span></h1>
-    <Section class="selectjobtype">
-        <input type="radio" id="product management" name="productmanagement" value="product management">
-        <label for="product management">Product Management</label>
-        <input type="radio" id="product design" name="productdesign" value="product design">
-        <label for="product design">Product Design</label>
-        <input type="radio" id="frontend development" name="frontenddevelopment" value="frontend development">
-        <label for="frontend development">Frontend Development</label>
-    </Section>
-    <img src="Images/close-up-black-white-hand 1.png" class="heropics" alt="heropics"/>
-    <section class="summary">
-        <h3>With User Research, Low Fidelity<br> and High Fielity Desgns, the<br> existence of solutions break forth</h3>
-        <p>Check out the case studies that seek to cast your heart<br> to solutions.</p>
-        <button>View Portfolio</button><br>
-        <a href="#">Download CV</a>
-    </section>
-    <section class="floater">
-        <h3>Designer of Minimalist Solutions</h3>
-    </section>
-    <div>
-        <section class="Products">
-            <h4>LearnAm</h4>
-            <p>Check out the App development of LearnAm while<br> as an Intern in ScholarX Inc.</p>
+    <h1 class="hero">Welcome to the world of Building Software<br> Products</h1>
+    <div class="hero">
+        <Section class="selectjobtype">
+            <img src="assets/icons/Vector.png" alt="">
+            <p>Product manager</p>
+            <img src="assets/icons/Vector.png" alt="">
+            <p>Product Design</p>
+            <img src="assets/icons/Vector.png" alt="">
+            <p>Frontend Developer</p>
+
+        </Section>
+        <img src="assets/img/hands.png" class="heropics" alt="heropics"/>
+    </div>    
+
+        <section class="summary" >
+            <div class="msgIcon">
+                <div>
+                    <h3>With User Research, Low Fidelity<br> and High Fielity Desgns, the<br> existence of solutions break forth</h3>
+                    <p>Check out the case studies that seek to cast your heart<br> to solutions.</p>
+                </div>
+                <img src="assets/icons/msg.png" alt="icon">
+            </div>
+            <div class="secondIcon">
+                <button>View Portfolio</button>
+                <img src="assets/icons/call.png" alt="icon">
+            </div>
+            <div class="lastIcons">
+                <img src="assets/icons/contact.png" alt="icon">
+                <h3>Designer of Minimalist Solutions</h3>
+                <img src="assets/icons/home.png" alt="icon">
+            </div>
         </section>
-            <img src="Images/Pic holder.png" class="Productimage2" alt="products"/>
-            <img src="Images/LearnAm.png" class="Productimage1" alt="products"/>
-            <button class="caseone">View Case Studies</button>
+
+
+
+    <!-- LEARNAM -->
+    <div class="learnAM">
+        <div class="LearnImage">
+            <div class="productImage2">
+                <img src="assets/img/phones.png" class="productimage" alt="products"/>
+            </div>
+            <div class="productImage1">
+                <img src="assets/img/imageBg.png" class="productimage" alt="products"/>
+            </div>    
+        </div>
+        <div>        
+                
+            <div class="Products">
+                <h3>LearnAm</h3>
+                <p>Check out the App development of LearnAm while<br> as an Intern in ScholarX Inc.</p>
+                <button class="caseone">View Case Studies</button>
+            </div>      
+        </div>
     </div>
-    <div>
+
+    <!-- lead by books -->
+    <div class="offers">
         <section class="Products1">
-            <h4>Lead By Books</h4>
+            <h3>Lead By Books</h3>
             <p>Check out the case study of Lead By Books<br> from scratch till development.</p>
-        </section>
-            <img src="Images/Pic holder.png" class="Productimage3" alt="products"/>
-            <img src="Images/Lead by books.png" class="Productimage6" alt="products"/>
             <button class="casetwo">View Case Studies</button>
+        </section>
+        <div class="LearnImage">
+            <div class="productImage2">
+                <img src="assets/img/offer.png" class="productimage" alt="products"/>
+            </div>
+            <div class="productImage1">
+                <img src="assets/img/imageBg.png" class="productimage" alt="products"/>
+            </div>    
+        </div>
+
     </div>
     <footer>
         <p class="footertext">Copyright © 2022 EstherOyebode. All Rights Reserved.</p>
